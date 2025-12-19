@@ -1,0 +1,16 @@
+{
+  "name": "vite-plus-library",
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "tsdown": "^0.18.1",
+    "@voidzero-dev/vite-plus": "0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc"
+    }
+  },
+  "packageManager": "pnpm@10.26.1"
+}
